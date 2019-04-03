@@ -1,0 +1,19 @@
+@import "../../styles/colors.scss";
+
+.stock{
+    align-items: center;
+    background: $white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100px;
+    margin: 10px 0;
+
+    .stock-name{
+        width: 30%;
+    }
+    .stock-details{
+        width: 70%;
+    }
+}
